@@ -4,12 +4,18 @@
 }
 
 .topnav{
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px 30px 20px;
+    padding: 15px 20px 15px 20px;
     margin: 0px;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(199, 199, 199);
+    border-style: solid;
+}
+
+.topnav .logo img{
+    height: 60px;
 }
 
 .topnav .menu a{
