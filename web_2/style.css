@@ -2,7 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
-
 .topnav{
     display: flex;
     justify-content: space-between;
@@ -12,22 +11,21 @@
     border-width: 0px 0px 2px 0px;
     border-color: rgb(199, 199, 199);
     border-style: solid;
+    background-color: white;
+    z-index: 1000;
 }
-
-.topnav .logo img{
+.logo img{
     height: 60px;
 }
-
-.topnav .menu a{
-    font-size: 15px;
+.menu a{
+    font-size: 17px;
     font-weight: bold;
     margin: 15px;
     color: black;
     text-decoration: none;
+    font-family: Open Sans;
 }
-
-.topnav .menu .menu_button{
-
+.menu_button{
     border-width: 2px;
     border-style: solid;
     border-color: black;
